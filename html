@@ -114,4 +114,33 @@ const CIRCLE8 = document.querySelector('.circle8');
 var windowWidth = window.innerWidth;
 var windowHeight = window.innerHeight;
 
+function mouseCoordinates(e) {
+    // Capture the event object (mouse movement).
+    // Get X coordinate (distance from left viewport edge) via clientX property.
+    // Take total window width, subtract current coordinate and width of circle.
+    // Do the same for Y coordinate (distance from top viewport edge).
+    var horizontalPosition = windowWidth - e.clientX - 26;
+    var verticalPosition= windowHeight - e.clientY - 26;
+    var horizontalPosition2 = windowWidth - e.clientX - 200;
+    var verticalPosition2= windowHeight - e.clientY - 200;
+    // Set horizontal and vertical position.
+    CIRCLE.style.right = horizontalPosition + 'px';
+    CIRCLE.style.bottom = verticalPosition + 'px';
+    CIRCLE2.style.left = horizontalPosition + 'px';
+    CIRCLE2.style.top = verticalPosition + 'px';
+    CIRCLE3.style.left = horizontalPosition + 'px';
+    CIRCLE3.style.bottom = verticalPosition + 'px';
+    CIRCLE4.style.right = horizontalPosition + 'px';
+    CIRCLE4.style.top = verticalPosition + 'px';
+
+    CIRCLE5.style.right = horizontalPosition2 + 'px';
+    CIRCLE5.style.bottom = verticalPosition2 + 'px';
+    CIRCLE6.style.left = horizontalPosition2 + 'px';
+    CIRCLE6.style.top = verticalPosition2 + 'px';
+    CIRCLE7.style.left = horizontalPosition2 + 'px';
+    CIRCLE7.style.bottom = verticalPosition2 + 'px';
+    CIRCLE8.style.right = horizontalPosition2 + 'px';
+    CIRCLE8.style.top = verticalPosition2 + 'px';
+}
+
 </script>
