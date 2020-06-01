@@ -5,7 +5,7 @@ Notes:
 
 -switch the circles to ids 
 
--make one circle class instead of having 8 classes
+-make one circle class instead of having 8 separate classes
 
 -separate out the html, css, and javascript
 
