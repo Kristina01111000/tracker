@@ -143,8 +143,16 @@ function mouseCoordinates(e) {
     CIRCLE8.style.top = verticalPosition2 + 'px';
 }
 
+function changeColor(e){
+	//change the color of the border of circles when the mouse is clicked
+	CIRCLE.style.borderColor = white;//"#"+((1<<24)*Math.random()|0).toString(16);
+}
+
+
+
 // When the mouse moves, run the mouseCoordinates function.
 AREA.addEventListener('mousemove', mouseCoordinates, false);
+// when the mouse moves run the change color function
 //AREA.addEventListener('onmousedown', function() (CIRCLE.style.borderColor = white;}, false);//changeColor, false);
 
 </script>
