@@ -8,3 +8,5 @@ Notes:
 -make one circle class instead of having 8 classes
 
 -separate out the html, css, and javascript
+
+-change color function not working currently
