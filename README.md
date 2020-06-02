@@ -1,7 +1,7 @@
 # tracker
 A javascript project that I initially learned from a course and added more to
 
-Notes: 
+To-Do list: 
 
 -switch the circles to ids 
 
@@ -9,4 +9,4 @@ Notes:
 
 -separate out the html, css, and javascript
 
--change color function not working currently
+-change_color function not working currently, fix it
