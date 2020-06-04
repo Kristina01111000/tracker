@@ -12,3 +12,5 @@ To-Do list:
 -change_color function not working currently, fix it
 
 -add all of the circles into change color function
+
+-maybe set the colors of all the circles to be a designated distance from each other?
