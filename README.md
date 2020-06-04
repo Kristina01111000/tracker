@@ -10,3 +10,5 @@ To-Do list:
 -separate out the html, css, and javascript
 
 -change_color function not working currently, fix it
+
+-add all of the circles into change color function
